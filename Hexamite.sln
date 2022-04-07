@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HX7 Robot", "HX7 Robot\HX7 Robot.csproj", "{1917B1AD-27F7-4735-961B-A16B1F4EFB01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HX7 Render", "HX7 Render\HX7 Render.csproj", "{30DA570E-87F7-4671-BA40-58FC1BA4A981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{B54E897E-011D-4F97-A4F2-EC281F044A1A}"
+	ProjectSection(SolutionItems) = preProject
+		HX7 Robot Firmware.zip = HX7 Robot Firmware.zip
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|ARM.Build.0 = Debug|ARM
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|x64.ActiveCfg = Debug|x64
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|x64.Build.0 = Debug|x64
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|x64.Deploy.0 = Debug|x64
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|x86.ActiveCfg = Debug|x86
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|x86.Build.0 = Debug|x86
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Debug|x86.Deploy.0 = Debug|x86
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|Any CPU.ActiveCfg = Release|x86
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|ARM.ActiveCfg = Release|ARM
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|ARM.Build.0 = Release|ARM
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|ARM.Deploy.0 = Release|ARM
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|x64.ActiveCfg = Release|x64
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|x64.Build.0 = Release|x64
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|x64.Deploy.0 = Release|x64
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|x86.ActiveCfg = Release|x86
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|x86.Build.0 = Release|x86
+		{1917B1AD-27F7-4735-961B-A16B1F4EFB01}.Release|x86.Deploy.0 = Release|x86
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|ARM.Build.0 = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|x64.Build.0 = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Debug|x86.Build.0 = Debug|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|ARM.ActiveCfg = Release|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|ARM.Build.0 = Release|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|x64.ActiveCfg = Release|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|x64.Build.0 = Release|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|x86.ActiveCfg = Release|Any CPU
+		{30DA570E-87F7-4671-BA40-58FC1BA4A981}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

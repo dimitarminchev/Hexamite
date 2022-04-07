@@ -1,0 +1,21 @@
+﻿# stop activity on synchronizer
+M&%
+
+# reset all devices in the air
+X&rst
+void
+
+# if lots of active devices are in the air, then repeat
+X&rst
+void
+
+# all hx7 are listeners, echo, IMU, pinout, usart disabled, broadcast enabled. 
+X&ac f:20 ic ec ocp osb ocu
+
+# setup air devices
+X21&at:30
+X22&at:40
+X23&at:50
+X24&at:60
+X28&me:25|at:70
+M&a:100 f:21 s:5$

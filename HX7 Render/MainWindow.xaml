@@ -1,0 +1,23 @@
+﻿<Window x:Class="HX7_Render.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:HelixToolkit="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf" 
+        xmlns:local="clr-namespace:HX7_Render"
+        mc:Ignorable="d"
+        Title="HX7 Render"  Height="480" Width="640">
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Connect" Click="Connect_Click" />
+            <MenuItem Header="Script" Click="Scrypt_Click" />
+            <MenuItem Header="About" Click="About_Click" />
+            <MenuItem Header="Exit" Click="Exit_Click" />
+        </Menu>
+        <HelixToolkit:HelixViewport3D x:Name="ViewPort" ZoomExtentsWhenLoaded="True" ShowCoordinateSystem="True">
+            <HelixToolkit:SunLight/>
+            <ModelVisual3D Content="{Binding _modelGroup}"/>
+        </HelixToolkit:HelixViewport3D>
+    </DockPanel>
+</Window>
